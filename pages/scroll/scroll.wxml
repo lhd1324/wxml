@@ -1,0 +1,22 @@
+<view class="containercon">
+  <view class="top">
+    <view class="logo"></view>
+    <view class="user">
+      <image src="111"></image>
+      <text>笑话</text>
+    </view>
+  </view>
+
+  <!--scroll-y=true-->
+  <scroll-view class="scrolly" scroll-y="true" bindscroll="scrollfun" bindscrolltoupper="scrollhide" bindscrolltolower="scrollload" scroll-top="100">
+    <view class="scroll-info" animation="{{animationData}}"><text>{{showinfo}}</text></view>
+    <view class="scroll-item" wx:for="{{showdata}}">
+        <image src="{{item.url}}"></image>
+        <view class="con">
+          <view class="contit"><text>{{item.tit}}{{item.tit}}{{item.tit}}{{item.tit}}{{item.tit}}</text></view>
+          <view class="contime"><text>{{item.time}}</text></view>
+        </view>
+    </view>
+  </scroll-view>
+  <view class="tabBar"></view>
+</view>

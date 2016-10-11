@@ -1,0 +1,54 @@
+.containercon{
+	background-color:;
+}
+.scrolly{
+	height:500rpx;
+	position:relative;
+	padding:5rpx 0;
+	width:700rpx;
+	margin:0 auto;
+	background-color:raba()
+}
+.scroll-info{
+	position:fixed;
+	width:600rpx;
+	height:50rpx;
+	background-color:rgba(0,0,0,.5);
+	top:100rpx;
+	left:50%;
+	margin-left:-300rpx;
+	line-height:50rpx;
+	color:#fff;
+	transform:scale(0);
+}
+.bg-red{
+	background-color:deeppink;
+}
+.bg-orange{
+	background-color:orange;
+}
+.bg-yellow{
+	background-color:yellow;
+}
+.scroll-item{
+	width:650rpx;
+	margin:0 auto;
+	height:auto;
+	padding:5rpx 0;
+	background-color:#fff;
+	border-bottom:1rpx solid #666;
+	overflow:hidden;
+}
+.scroll-item image{
+	float:left;
+	width:80rpx;
+	height:80rpx;
+	border-radius:50%;
+	background-color:#09f;
+}
+.scroll-item .con{
+	float:left;
+	width:560rpx;
+	margin-left:10rpx;
+	background-color:#09f;
+}

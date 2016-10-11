@@ -1,0 +1,99 @@
+
+
+/*bar*/
+.bar{
+	position:relative;
+	height:300rpx;
+	width:750rpx;
+	overflow:hidden;
+	background-color:green;
+}
+.bar .barul{
+	width:2250rpx;
+	height:100%;
+}
+.bar .barul .barli{
+	float:left;
+	width:750rpx;
+	height:100%;
+	background-color:#999;
+}
+.bar .barul .barli image{
+	width:90%;
+	height:100%;
+}
+
+.bar .barul .barli text{
+	color:#fff;
+}
+.bar .foucsli{
+	position:absolute;
+	width:300rpx;
+	height:60rpx;
+	background-color:red;
+	bottom:30rpx;
+	left:50%;
+	margin-left:-150rpx;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	/*flex-direction: row;*/
+}
+.foucsli label{
+	display:inline-block;
+	width:20rpx;
+	height:20rpx;
+	margin:5rpx;
+	background-color:#fff;
+	border-radius:50%;
+}
+.foucsli .alabel{
+	background-color:#09f;
+}
+/*box*/
+.box{
+	margin:20rpx auto;
+	width:650rpx;
+	background-color:yellow;
+	overflow:hidden;
+}
+.box view{
+	float:left;
+	width:160rpx;
+	height:160rpx;
+	margin:1.25rpx;
+	background-color:#999;
+}
+
+/*list*/
+.list{
+	margin:20rpx auto;
+	width:700rpx;
+	min-height:500rpx;
+	background-color:green;
+}
+.listtit{
+	line-height:60rpx;
+	border-bottom:1rpx solid #999;
+}
+.listtit text:first-child{
+	margin-left:5rpx;
+	color:#09f;
+	font-size:25rpx;
+}
+.listtit text:last-child{
+	float:right;
+	color:#666;
+	margin-right:5rpx;
+	font-size:20rpx;
+}
+.listcon{
+	overflow:hidden;
+}
+.listcon view{
+	float:left;
+	margin:5rpx;
+	width:340rpx;
+	height:340rpx;
+	background-color:#888;
+}

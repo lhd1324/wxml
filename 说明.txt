@@ -1,0 +1,8 @@
+app.js  小程序逻辑
+app.json 小程序公共设置
+app.wxss 小程序公共样式
+utils 日志的时间转换方式
+pages/index 包含了图片的轮播方式案例，和基本的页面布局
+pages/scroll 下拉加载更多的样式案例
+pages/swiper 面板滑动案例
+pages/logs  修改日志记录

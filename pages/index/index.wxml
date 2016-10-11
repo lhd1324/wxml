@@ -1,0 +1,45 @@
+<view class="containercon">
+    <view class="top">
+        <view class="logo"></view>
+        <view class="user">
+            <image src="111"></image>
+            <text>笑话</text>
+        </view>
+    </view>
+    <view class="bar">
+        <view class="barul" animation="{{animationData}}" style="width:{{20*bardata.length}}rem">
+            <view class="barli" wx:for="{{bardata}}">
+                <!--<image src="{{item.url}}"></image>-->
+                <text>{{item.con}}</text>
+            </view>
+        </view>
+        <view class="foucsli" >
+            <radio-group  wx:for="{{bardata}}" >
+                <label   wx:if="{{item.index==current}}" class="alabel" >
+                </label>
+                <label  bindtap="changecon" data-num="{{item.index}}" wx:else >
+                </label>
+            </radio-group>
+        </view>
+    </view>
+    <view class="box">
+        <view></view>
+        <view></view>
+        <view></view>
+        <view></view>
+        <view></view>
+        <view></view>
+        <view></view>
+        <view></view>
+    </view>
+    <view class="list">
+        <view class="listtit"><text>精品选区</text><text>more</text></view>
+        <view class="listcon">
+            <view></view>
+            <view></view>
+            <view></view>
+            <view></view>
+        </view>
+    </view>
+    <view class="tabBar"></view>
+</view>

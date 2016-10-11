@@ -1,0 +1,46 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+} 
+.containercon {
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:0;
+  box-sizing: border-box;
+  padding-bottom:20rpx;
+}
+.top{
+  height:100rpx;
+  background:red;
+  overflow:hidden;
+}
+.top .logo{
+  float:left;
+  width:50rpx;
+  height:100rpx;
+  background-color:#777;
+}
+.top .user{
+  float:right;
+  width:200rpx;
+  height:100rpx;
+  background-color:#999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+.top .user image{
+  width:60rpx;
+  height:60rpx;
+  background-color:blue;
+  border-radius:50%;
+}
